@@ -1,0 +1,123 @@
+prompt --application/shared_components/navigation/breadcrumbs/breadcrumb
+begin
+--   Manifest
+--     MENU: Breadcrumb
+--   Manifest End
+wwv_flow_imp.component_begin (
+ p_version_yyyy_mm_dd=>'2023.10.31'
+,p_release=>'23.2.4'
+,p_default_workspace_id=>91148611334986183999
+,p_default_application_id=>211981
+,p_default_id_offset=>0
+,p_default_owner=>'WKSP_WRKSPCEJDM'
+);
+wwv_flow_imp_shared.create_menu(
+ p_id=>wwv_flow_imp.id(102496754266051261446)
+,p_name=>'Breadcrumb'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(102615536270879165077)
+,p_parent_id=>wwv_flow_imp.id(108275689141552186554)
+,p_short_name=>'Transmittal'
+,p_link=>'f?p=&APP_ID.:3:&SESSION.::&DEBUG.:::'
+,p_page_id=>3
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(103048797573073992752)
+,p_parent_id=>wwv_flow_imp.id(102615536270879165077)
+,p_short_name=>'Transmittal Form'
+,p_link=>'f?p=&APP_ID.:5:&SESSION.::&DEBUG.:::'
+,p_page_id=>5
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(103050777409743072587)
+,p_short_name=>'Check-in'
+,p_link=>'f?p=&APP_ID.:10:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>10
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(103063653779697481185)
+,p_short_name=>'Shelving'
+,p_link=>'f?p=&APP_ID.:11:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>11
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(103064227543270501341)
+,p_short_name=>'Warehoused'
+,p_link=>'f?p=&APP_ID.:12:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>12
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(103064267530332507558)
+,p_short_name=>'Released'
+,p_link=>'f?p=&APP_ID.:13:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>13
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(103076702242616311044)
+,p_parent_id=>wwv_flow_imp.id(108275689141552186554)
+,p_short_name=>'Barcode'
+,p_link=>'f?p=&APP_ID.:6:&SESSION.::&DEBUG.:::'
+,p_page_id=>6
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(103077952968400851562)
+,p_parent_id=>wwv_flow_imp.id(108275689141552186554)
+,p_short_name=>'Retrieval'
+,p_link=>'f?p=&APP_ID.:7:&SESSION.::&DEBUG.:::'
+,p_page_id=>7
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(103170696810419119133)
+,p_parent_id=>wwv_flow_imp.id(102615536270879165077)
+,p_short_name=>'For Approval'
+,p_link=>'f?p=&APP_ID.:8:&SESSION.::&DEBUG.:::'
+,p_page_id=>8
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(104987418602732413739)
+,p_parent_id=>wwv_flow_imp.id(108275689141552186554)
+,p_short_name=>'Return'
+,p_link=>'f?p=&APP_ID.:14:&SESSION.::&DEBUG.:::'
+,p_page_id=>14
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(105532684316792553832)
+,p_parent_id=>wwv_flow_imp.id(103077952968400851562)
+,p_short_name=>'BRR'
+,p_link=>'f?p=&APP_ID.:15:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>15
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(106260846667074075250)
+,p_short_name=>'User Types'
+,p_link=>'f?p=&APP_ID.:51:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>51
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(106272944024332191478)
+,p_short_name=>'Modules'
+,p_link=>'f?p=&APP_ID.:55:&SESSION.::&DEBUG.:::'
+,p_page_id=>55
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(106291917270220469798)
+,p_short_name=>'Users'
+,p_link=>'f?p=&APP_ID.:53:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>53
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(106363088797463531581)
+,p_short_name=>'RC'
+,p_link=>'f?p=&APP_ID.:57:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>57
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(108275689141552186554)
+,p_short_name=>'Forms'
+,p_link=>'f?p=&APP_ID.:9997:&SESSION.::&DEBUG.:::'
+,p_page_id=>9997
+);
+wwv_flow_imp.component_end;
+end;
+/
