@@ -165,4 +165,8 @@ prompt --install
 @@application/pages/page_09999.sql
 @@application/pages/page_10000.sql
 @@application/pages/page_10001.sql
+@@application/deployment/definition.sql
+@@application/deployment/install/install_landev_db_objects.sql
+@@application/deployment/checks.sql
+@@application/deployment/buildoptions.sql
 @@application/end_environment.sql

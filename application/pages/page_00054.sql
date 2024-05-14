@@ -23,7 +23,7 @@ wwv_flow_imp_page.create_page(
 ,p_protection_level=>'C'
 ,p_page_component_map=>'02'
 ,p_last_updated_by=>'JOHNDANIEL.MARASIGAN@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20240513015202'
+,p_last_upd_yyyymmddhh24miss=>'20240514031604'
 );
 wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(106291898944840469784)
@@ -136,7 +136,6 @@ wwv_flow_imp_page.create_page_item(
  p_id=>wwv_flow_imp.id(106291899210433469785)
 ,p_name=>'P54_USER_ID'
 ,p_source_data_type=>'VARCHAR2'
-,p_is_required=>true
 ,p_is_primary_key=>true
 ,p_item_sequence=>10
 ,p_item_plug_id=>wwv_flow_imp.id(106291898944840469784)
@@ -144,16 +143,15 @@ wwv_flow_imp_page.create_page_item(
 ,p_prompt=>'User ID'
 ,p_source=>'USER_ID'
 ,p_source_type=>'REGION_SOURCE_COLUMN'
-,p_display_as=>'NATIVE_TEXT_FIELD'
-,p_cSize=>30
+,p_display_as=>'NATIVE_DISPLAY_ONLY'
 ,p_field_template=>wwv_flow_imp.id(102497729036098261516)
 ,p_item_template_options=>'#DEFAULT#'
 ,p_is_persistent=>'N'
 ,p_protection_level=>'S'
-,p_attribute_01=>'N'
-,p_attribute_02=>'N'
-,p_attribute_04=>'TEXT'
-,p_attribute_05=>'BOTH'
+,p_attribute_01=>'Y'
+,p_attribute_02=>'VALUE'
+,p_attribute_04=>'Y'
+,p_attribute_05=>'PLAIN'
 );
 wwv_flow_imp_page.create_page_item(
  p_id=>wwv_flow_imp.id(106291899628177469785)
@@ -206,7 +204,6 @@ wwv_flow_imp_page.create_page_item(
  p_id=>wwv_flow_imp.id(106291900848678469786)
 ,p_name=>'P54_IS_ACTIVE'
 ,p_source_data_type=>'VARCHAR2'
-,p_is_required=>true
 ,p_item_sequence=>50
 ,p_item_plug_id=>wwv_flow_imp.id(106291898944840469784)
 ,p_item_source_plug_id=>wwv_flow_imp.id(106291898944840469784)
@@ -219,7 +216,9 @@ wwv_flow_imp_page.create_page_item(
 ,p_field_template=>wwv_flow_imp.id(102497729036098261516)
 ,p_item_template_options=>'#DEFAULT#:t-Form-fieldContainer--stretchInputs'
 ,p_is_persistent=>'N'
-,p_attribute_01=>'Y'
+,p_attribute_01=>'N'
+,p_attribute_02=>'Y'
+,p_attribute_03=>'N'
 );
 wwv_flow_imp_page.create_page_item(
  p_id=>wwv_flow_imp.id(106291902802321469787)
